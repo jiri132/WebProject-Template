@@ -1,0 +1,56 @@
+h1 {
+    padding-bottom: .3em;
+    font-size: 2em;
+    border-bottom: 3px solid #2D333B;
+}
+
+table {
+    padding: 0;
+  }
+  table tr {
+    border-top: 1px solid #8c8686;
+    background-color: #474747;
+    margin: 0;
+    padding: 0;
+  }
+  table tr td:nth-child(1) {
+    background-color: #363636;
+  }
+  table tr td:nth-child(2) {
+    background-color: #292929;
+  }
+  table tr td:nth-child(3) {
+    background-color: #1b1b1b;
+  }
+  
+  table tr th {
+    font-weight: bold;
+    border: 1px solid #1e1e1e;
+    text-align: left;
+    margin: 0;
+    padding: 6px 13px;
+  }
+  
+
+
+  table tr td {
+    border: 1px solid #1e1e1e;
+    text-align: left;
+    margin: 0;
+    padding: 6px 13px;
+  }
+  
+  table tr th :first-child, table tr td :first-child {
+    margin-top: 0;
+  }
+  
+  table tr th :last-child, table tr td :last-child {
+    margin-bottom: 0;
+  }
+
+
+  [src='http://jiri.dscloud.me/GIT_README/EntitledEngine2/Rotation.gif']{
+    width: 50vw;
+    max-width: 1200px;
+    height: auto;
+}
