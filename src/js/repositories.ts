@@ -10,7 +10,6 @@ export interface repos {
     languages_url       : string;
     html_url            : string;
 
-
     //Time & Dates
     created_at          : string;
     updated_at          : string;
