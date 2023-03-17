@@ -1,3 +1,11 @@
-import * as projectManager from "./project-displayer.js";
+import * as reposManager from "./project-displayer.js";
+import { repos } from "./repositories.js";
 
-//projectManager.DisplayProjects();
+const projectContainer : HTMLElement | null = document.getElementById("projects");
+const Repos : Promise<repos[]> = reposManager.GetRepos();
+
+
+Repos.then(data => {
+    data = data.filter(d => d.language == projectContainer!.dataset.language);
+    reposManager.DisplayProjects(projectContainer!,data);
+})

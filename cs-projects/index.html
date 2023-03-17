@@ -5,31 +5,31 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="../src/style.css">
 
     <title>Jiri Beurskens</title>
 </head>
-<body>
+<body class="link-transition">
     <div class="site-container">
-        <div class="site-content e2e-site-content">
-            <div class="sidebar-contnet"> 
+        <div class="site-content">
+            <div class="sidebar-content"> 
                 <header class="site-header">
                     <div class="logo-wrap" data-hover-hint="logo"> 
                         <div class="logo e2e-site-logo-text logo-text">
                             <a href="/work" class="preserve-whitespace">Jiri Beurskens</a>
                         </div>
                     </div>
-                    <div class="hamburger-click-area js-hamburger">
+                    <!-- <div class="hamburger-click-area js-hamburger">
                         <div class="hamburger"> 
                             <i></i>
                             <i></i>
                             <i></i>
                         </div>
-                    </div>
+                    </div> -->
                 </header>
 
                 <nav>
-                    <div>
+                    <div class="page-title">
                         <a href="/this-is-me">Start</a>
                     </div>
                     <ul>
@@ -41,33 +41,16 @@
                         <a href="/contact">Contact</a>
                     </div>
                 </nav>
-                <!-- The main data of the page -->
-                <main>
-                    <!-- All of the project cards -->
-                    <section>
-
-                    </section>
-                </main>
             </div>
+            <!-- The main data of the page -->
+            <main>
+                <!-- All of the project cards -->
+                <section id="projects" class="project-covers" data-language="C#">
+                    
+                </section>
+            </main>
         </div>
     </div>
-    
-    <!-- Container for the whole page -->
-    <div class="container">
-        
-        <!-- <div id="aboutme" class="item">
-             Image of myself 
-            <img src="img/Cutout_Portret.jpeg"></img> 
-             Introduction about myself
-            <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi quas consectetur beatae dignissimos quasi facilis nostrum adipisci debitis ullam expedita, quia quaerat ipsam quisquam illo, enim saepe a nam aliquid?
-            </p>    
-        </div> -->
-        <!--Container for project lists-->
-        <div id="allProjects" class="scrolling-wrapper-flexbox item">
-            
-        </div>    
-    </div>
-    <script type="module" src="js/main.js"></script>
+    <script type="module" src="../src/js/main.js"></script>
 </body>
 </html>

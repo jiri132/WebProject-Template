@@ -3,8 +3,7 @@
 :: When you dont have the modules downloaded
 IF NOT EXIST node_modules (
     echo "Installing Application"
-    node
-    pip install typescript
+    npm install typescript
 )
 
 :: When you get past installing Start the application
