@@ -10,7 +10,7 @@ export const template = function( repo : repos, img : string, domain : string, p
         <a 
         href="../jiri132/project.html?name=${repo.name}"
         id="${repo.full_name}" 
-        class="project-cover hold-space"
+        class="project-cover project hold-space"
         >
             <div class="cover-image-wrap"> 
                 <div class="cover-image"> 

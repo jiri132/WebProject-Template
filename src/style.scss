@@ -135,13 +135,12 @@ nav {
                 font-style: italic; 
                 font-weight: bold;
             }
+            :hover {
+                color:  $text-color-hover; 
+                font-style: normal; 
+                font-weight: bold;
+            }
         }
-        a:hover {
-            color:  $text-color-hover; 
-            font-style: normal; 
-            font-weight: bold;
-        }
-        
     }
     .project-title {
         padding-bottom: 10px; 
@@ -163,14 +162,13 @@ nav {
                 font-weight: 400; 
                 text-transform: none;
             }
+            :hover {
+                color: rgb(34, 34, 34); 
+                font-style: normal; 
+                font-weight: 400; 
+                text-transform: none;
+            }
         }
-        a:hover {
-            color: rgb(34, 34, 34); 
-            font-style: normal; 
-            font-weight: 400; 
-            text-transform: none;
-        }
-        
     }
     .page-title {
         padding-bottom: 30px; 
@@ -190,12 +188,12 @@ nav {
                 font-style: italic; 
                 font-weight: bold;
             }
-        }
-        a:hover {
-            color:  $text-color-hover; 
-            font-style: normal; 
-            font-weight: bold; 
-            text-transform: none;
+            :hover {
+                color:  $text-color-hover; 
+                font-style: normal; 
+                font-weight: bold; 
+                text-transform: none;
+            }
         }
     }
 }
@@ -263,17 +261,29 @@ nav {
         }
         :before {
             content: "";
-            display: block; 
+            display: block;
             width: 100%;
         }
     }
 }
+.project {
+    border-radius: 20px;
+    border-color: #2D333B;
+    border-style: solid;
+
+    margin-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
 .project-cover {
-    margin-right: 1%; 
+    
+
+    margin-right: 1%;
     width: 32%;
-    padding-bottom: 0px; 
-    padding-top: 40px;
-    display: block; 
+    padding-bottom: 0px;
+    
+    //padding-top: 40px;
+    display: block;
     position: relative;
 
     .hold-space {
@@ -349,7 +359,7 @@ nav {
         
         .cover__img {
             font-family: "object-fit: cover;"; 
-            height: calc(100% + 2px); 
+            //height: calc(100% + 2px); 
             left: 50%; 
             object-fit: cover; 
             position: absolute; 
